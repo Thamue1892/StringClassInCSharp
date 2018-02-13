@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringClassInCSharp", "StringClassInCSharp\StringClassInCSharp.csproj", "{52EF6DDE-E994-4F94-894F-73B2857459FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatStrings", "FormatStrings\FormatStrings.csproj", "{DE8CCA0B-AFD9-4835-9A58-B4F4DDE50855}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{52EF6DDE-E994-4F94-894F-73B2857459FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52EF6DDE-E994-4F94-894F-73B2857459FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52EF6DDE-E994-4F94-894F-73B2857459FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8CCA0B-AFD9-4835-9A58-B4F4DDE50855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8CCA0B-AFD9-4835-9A58-B4F4DDE50855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8CCA0B-AFD9-4835-9A58-B4F4DDE50855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8CCA0B-AFD9-4835-9A58-B4F4DDE50855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
