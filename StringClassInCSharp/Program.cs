@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StringClassInCSharp
 {
@@ -10,6 +6,9 @@ namespace StringClassInCSharp
     {
         static void Main(string[] args)
         {
+            //using regular strings
+            string columns = "Column 1\tColumn 2\tColumn 3";
+            Console.WriteLine(columns);
         }
     }
 }
