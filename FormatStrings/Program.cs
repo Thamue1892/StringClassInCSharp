@@ -23,6 +23,15 @@ namespace FormatStrings
                 Console.WriteLine(s);
             }
 
+
+            //Substrings
+            string s3 = "Thamsanqa Mpofu";
+            Console.WriteLine(s3.Replace("Thamsanqa", "Vuyolwethu"));
+            Console.WriteLine(s3);
+
+            //Index values are zero-based.
+            int index = s3.IndexOf("q");
+            Console.WriteLine("The index of q is: {0} ", index);
             Console.ReadKey();
         }
     }
