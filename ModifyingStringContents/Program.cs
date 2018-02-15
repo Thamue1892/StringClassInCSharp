@@ -25,6 +25,19 @@ namespace ModifyingStringContents
             app.replaceWith = "many";
             s = Regex.Replace(s, app.searchFor, app.replaceMatchCase, RegexOptions.IgnoreCase);
             Console.WriteLine(s);
+
+            //Replace all occurrences of one char with another.
+            s = s.Replace(' ', '_');
+            Console.WriteLine(s);
+
+            //Remove a substring from the middle of the string.
+            string temp = "many_";
+            int i = s.IndexOf(temp);
+            if (i>=0)
+            {
+                s = s.Remove(i, temp.Length);
+            }
+            Console.WriteLine(s);
         }
 
         private string replaceMatchCase(Match m)
