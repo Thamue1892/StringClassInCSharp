@@ -38,6 +38,11 @@ namespace ModifyingStringContents
                 s = s.Remove(i, temp.Length);
             }
             Console.WriteLine(s);
+
+            //Remove trailing and leading whitespace.
+            string s2 = " I'm wider than I need to be.        ";
+            temp = s2.Trim();
+            Console.WriteLine(temp);
         }
 
         private string replaceMatchCase(Match m)
