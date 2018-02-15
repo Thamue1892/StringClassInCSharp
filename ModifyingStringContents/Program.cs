@@ -38,11 +38,30 @@ namespace ModifyingStringContents
                 s = s.Remove(i, temp.Length);
             }
             Console.WriteLine(s);
+            Console.WriteLine();
 
             //Remove trailing and leading whitespace.
             string s2 = " I'm wider than I need to be.        ";
             temp = s2.Trim();
             Console.WriteLine(temp);
+            Console.WriteLine();
+
+            //Accessing individual characters in a string using array notation.
+            string str = "The quick brown fox jumped over the fence";
+            Console.WriteLine(str);
+            Console.WriteLine();
+
+            char[] chars = str.ToCharArray();
+            int animalIndex = str.IndexOf("fox");
+            if (animalIndex !=-1)
+            {
+                chars[animalIndex++] = 'c';
+                chars[animalIndex++] = 'a';
+                chars[animalIndex] = 't';
+            }
+
+            string str2 = new string(chars);
+            Console.WriteLine(str2);
         }
 
         private string replaceMatchCase(Match m)
