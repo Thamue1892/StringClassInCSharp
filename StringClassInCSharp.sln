@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringClassInCSharp", "StringClassInCSharp\StringClassInCSharp.csproj", "{52EF6DDE-E994-4F94-894F-73B2857459FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatStrings", "FormatStrings\FormatStrings.csproj", "{DE8CCA0B-AFD9-4835-9A58-B4F4DDE50855}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyingStringContents", "ModifyingStringContents\ModifyingStringContents.csproj", "{7E316E08-534D-4CE3-AF93-7160F3A3E308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingStrings", "ComparingStrings\ComparingStrings.csproj", "{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7E316E08-534D-4CE3-AF93-7160F3A3E308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E316E08-534D-4CE3-AF93-7160F3A3E308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E316E08-534D-4CE3-AF93-7160F3A3E308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
