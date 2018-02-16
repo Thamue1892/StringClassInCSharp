@@ -18,7 +18,27 @@ namespace ComparingStrings
 
             Console.WriteLine();
 
-            
+            //Using a static method
+            bool areEqual = string.Equals(root, root2, StringComparison.Ordinal);
+
+            //String interning.Are these really two distinct objects?
+            string a = "The computer ate my source code.";
+            string b = "The computer ate my source code.";
+
+            //ReferenceEquals returns true if both objects
+            //point to the same location in memory
+            if (String.ReferenceEquals(a, b))
+                Console.WriteLine("a and b are interned.");
+            else
+                Console.WriteLine("a and b are not interned.");
+
+            //Using string.Copy method to avoid interning
+            string c = String.Copy(a);
+
+            if (String.ReferenceEquals(a, c))
+                Console.WriteLine("a and c are interned.");
+            else
+                Console.WriteLine("a and c are not interned.");
         }
     }
 }
