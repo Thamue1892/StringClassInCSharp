@@ -62,6 +62,13 @@ namespace ModifyingStringContents
 
             string str2 = new string(chars);
             Console.WriteLine(str2);
+            Console.WriteLine();
+
+            //Using unsafe code to modify strings.
+            string s1 = "Hello";
+            string s3 = "Hello";
+
+      
         }
 
         private string replaceMatchCase(Match m)

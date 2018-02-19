@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringClassInCSharp", "StringClassInCSharp\StringClassInCSharp.csproj", "{52EF6DDE-E994-4F94-894F-73B2857459FB}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyingStringContents", "ModifyingStringContents\ModifyingStringContents.csproj", "{7E316E08-534D-4CE3-AF93-7160F3A3E308}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingStrings", "ComparingStrings\ComparingStrings.csproj", "{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingSystem.StringMethods", "UsingSystem.StringMethods\UsingSystem.StringMethods.csproj", "{8AE20383-AF5B-4BC4-8226-9C72ABAC37EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{777D51B3-8CF2-400C-9F3B-F57AA3479A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE20383-AF5B-4BC4-8226-9C72ABAC37EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE20383-AF5B-4BC4-8226-9C72ABAC37EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE20383-AF5B-4BC4-8226-9C72ABAC37EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE20383-AF5B-4BC4-8226-9C72ABAC37EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
